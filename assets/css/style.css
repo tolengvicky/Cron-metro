@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(30, 145, 30);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    text-align: center;
+    border: none;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color: transparent
+}
+
+svg{
+    color: #a9ce64;
+}
+
+svg:hover {
+    color:#e1f765;
+}
+
+span {
+    font-size: 2.5rem;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .time {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    background-color: #4fd155;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(247, 191, 217);
+  }
+  
+  .cyberpunk {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+  }
